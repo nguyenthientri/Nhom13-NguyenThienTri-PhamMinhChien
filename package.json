@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "node.js": "^0.0.1-security",
+    "sass": "^1.66.1"
+  },
+  "scripts": {
+    "scss": "sass --watch style.scss style.css"
+  }
+}

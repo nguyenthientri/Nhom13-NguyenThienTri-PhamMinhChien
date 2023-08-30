@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 500px;
+    background-color:  hsla(180, 100%, 50%, 0.441);
+    padding: 20px 30px;
+    background-image: linear-gradient(to bottom right,rgba(156, 252, 247, 0.176) ,rgba(255, 46, 234, 0.497) );
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"]{
+    width: 400px;
+    height: 25px;
+    padding: 0px 6px;
+    font-size: 14px;
+    outline: none;
+}
+.form-control.error input[type="text"],
+.form-control.error input[type="email"]{
+    border: 1px solid red;
+    border-radius:3px ;
+}
+h4{
+    margin: 15px 0 0px;
+}
+select{
+    width: 400px;
+    height: 25px;
+    outline: none;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    padding: 5px 6px;
+    font-size: 14px;
+    outline: none;
+}
+button{
+    display: block; 
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: 0.6px solid gray;
+}
+.form-control{
+    position: relative;
+}
+.form-control small {
+    color: orangered;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    visibility: hidden;
+}
+.form-control.error small{
+    visibility: visible;
+}
